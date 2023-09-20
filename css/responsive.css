@@ -69,7 +69,10 @@
 .home-text h5 {
     margin-top: 0;
 }
-
+.about-img{
+    max-height: 400px;
+    overflow: hidden;
+}
 
 }
 
@@ -128,3 +131,8 @@
 
 }
 
+@media (max-width: 420px){
+    #typed{
+        font-size: 12px !important;
+    }
+}
