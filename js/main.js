@@ -54,17 +54,14 @@ $(document).ready(function(){
         contentType: "html",
       });
     }
-	
-	/* Progress Bar */ 
+
+	/* Progress Bar */
 	$(document).ready(function(){
-		$('.bar1').barfiller({duration: 3000 });
-		$('.bar2').barfiller({duration: 3000 });
-		$('.bar3').barfiller({duration: 3000 });
-		$('.bar4').barfiller({duration: 3000 });
-		$('.bar5').barfiller({duration: 3000 });
-		$('.bar6').barfiller({duration: 3000 });
+        for (let i = 1; i <= 38; i++) {
+            $('.bar'+i).barfiller({duration: 3000 });
+        }
 	});
-	
+
 	/* Counter Up */
 	$('.counter').counterUp({
 		delay: 10,
