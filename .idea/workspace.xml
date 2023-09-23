@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="341">
+              <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -70,10 +70,10 @@
       <find>about-img</find>
       <find>Happy Client</find>
       <find>link</find>
-      <find>link</find>
       <find>ae.sa</find>
       <find>.counter-icon a</find>
       <find>2f2f2f</find>
+      <find>respon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,12 +238,12 @@
       <workItem from="1695225199481" duration="6367000" />
       <workItem from="1695234426875" duration="5089000" />
       <workItem from="1695458919049" duration="3119000" />
-      <workItem from="1695469483698" duration="27000" />
+      <workItem from="1695469483698" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14602000" />
+    <option name="totallyTimeSpent" value="14768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -383,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="341">
+          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
