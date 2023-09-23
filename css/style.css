@@ -1935,9 +1935,30 @@ body {
 	border: 1px solid #2f2f2f;
 	background:#2f2f2f;
 }
+.projects-info li{
+    color: #b1b1b1;
+}
+.card{
+    border: none;
+}
+.animated-icon{
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    background: #0c0c0c;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    -webkit-animation: border-transform 10s linear infinite alternate forwards;
+    animation: border-transform 10s linear infinite alternate forwards;
+}
+
 /***----------------------------------------***/
 /***  .13 START OF DEMO SECTION 
 /***----------------------------------------***/
-
-
-
