@@ -306,7 +306,7 @@ a:hover,
 }
 a,
 button {
-	color: ;
+	
 	outline: medium none;
 }
 button{cursor: pointer;}
@@ -677,9 +677,6 @@ body {
 .section-wrapper {
     padding-left: 235px;
     position: relative;
-}
-.banner-area {
-
 }
 .section-divide{
 	padding-top:100px;
@@ -1138,9 +1135,6 @@ body {
 }
 .custom {
     margin: 0 -15px;;
-}
-.Portfolio-wrapper {
-
 }
 .Portfolio-wrapper img {
 	width: 100%;
@@ -1958,6 +1952,15 @@ body {
     -webkit-animation: border-transform 10s linear infinite alternate forwards;
     animation: border-transform 10s linear infinite alternate forwards;
 }
+
+.about-btns{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
 
 /***----------------------------------------***/
 /***  .13 START OF DEMO SECTION 

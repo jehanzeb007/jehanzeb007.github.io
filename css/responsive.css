@@ -136,3 +136,20 @@
         font-size: 10px !important;
     }
 }
+
+@media (max-width: 515px){
+    .about-btns{
+       display: block;
+    }
+    .contact-btn{
+        width: 236px;
+    }
+}
+
+@media (max-width: 685px){
+    .home-social{
+      right: 10px !important;
+      bottom: 0% !important;
+    }
+    
+}
