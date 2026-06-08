@@ -13,7 +13,7 @@ import { Testimonials } from "@/components/portfolio/Testimonials";
 import { Blog } from "@/components/portfolio/Blog";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/jehanzeb.png";
 
 const title = "Jehanzeb Sarfraz — Senior Full Stack Developer & AI Solutions Architect";
 const description =
