@@ -3,12 +3,12 @@ import { ExternalLink, ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Teamery — Smart Team Performance Platform",
-    category: "SaaS · Collaboration",
-    desc: "Secure, scalable team-management SaaS with real-time communication, task management, role-based access and analytics for distributed teams.",
-    tags: ["Laravel", "MySQL", "Vue.js", "WebSockets"],
-    url: "https://teamery.net/",
-    color: "from-blue/30 to-purple/30",
+    title: "PayGreenCard — Digital Payments",
+    category: "FinTech · Payments",
+    desc: "Secure digital wallet & payments platform with instant transfers, 2048-bit encryption, fraud detection and high-volume transaction processing.",
+    tags: ["Laravel", "PostgreSQL", "Payments", "Security"],
+    url: "https://www.paygreencard.com/",
+    color: "from-blue/30 to-cyan/30",
   },
   {
     title: "Nardagani — Interactive Language Learning",
@@ -19,20 +19,20 @@ const projects = [
     color: "from-cyan/30 to-blue/30",
   },
   {
+    title: "Teamery — Smart Team Performance Platform",
+    category: "SaaS · Collaboration",
+    desc: "Secure, scalable team-management SaaS with real-time communication, task management, role-based access and analytics for distributed teams.",
+    tags: ["Laravel", "MySQL", "Vue.js", "WebSockets"],
+    url: "https://teamery.net/",
+    color: "from-blue/30 to-purple/30",
+  },
+  {
     title: "Joticle — Knowledge Management Platform",
     category: "SaaS · AI",
     desc: "Manages millions of knowledge units with AI-powered curation, 360° reporting, premium subscriptions and cross-domain session sync.",
     tags: ["Laravel", "Vue.js", "Tailwind", "OpenAI"],
     url: "https://joticle.com/",
     color: "from-purple/30 to-cyan/30",
-  },
-  {
-    title: "PayGreenCard — Digital Payments",
-    category: "FinTech · Payments",
-    desc: "Secure digital wallet & payments platform with instant transfers, 2048-bit encryption, fraud detection and high-volume transaction processing.",
-    tags: ["Laravel", "PostgreSQL", "Payments", "Security"],
-    url: "https://www.paygreencard.com/",
-    color: "from-blue/30 to-cyan/30",
   },
   {
     title: "College for World Connections",

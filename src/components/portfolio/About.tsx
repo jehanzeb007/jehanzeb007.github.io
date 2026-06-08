@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 import portrait from "@/assets/jehanzeb.png";
+import resume from "@/assets/resume.pdf";
+
 import { CheckCircle2 } from "lucide-react";
 
 const points = [

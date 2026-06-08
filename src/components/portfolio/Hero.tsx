@@ -73,11 +73,11 @@ export function Hero() {
             <a href="#projects" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               View Projects
             </a>
-            <a href="#" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+            <a href="src/assets/resume.pdf" target="_blank"  className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               <Download className="h-4 w-4" /> Resume
             </a>
-            <a href="#contact" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
-              <Calendar className="h-4 w-4" /> Book Consultation
+            <a href="src/assets/jehanzebarfraz.vcf" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+            <Download className="h-4 w-4" />  Contact
             </a>
           </motion.div>
 
