@@ -1,35 +1,26 @@
 import { motion } from "motion/react";
 import { useState } from "react";
-import { useServerFn } from "@tanstack/react-start";
 import { Mail, Linkedin, Phone, Send, Briefcase, MapPin, MessageSquare } from "lucide-react";
 import { toast } from "sonner";
-import { z } from "zod";
-import { sendContactMessage } from "@/lib/contact.functions";
-
-const schema = z.object({
-  name: z.string().trim().min(2).max(80),
-  email: z.string().trim().email().max(160),
-  company: z.string().trim().max(120).optional().or(z.literal("")),
-  budget: z.string().max(40).optional().or(z.literal("")),
-  message: z.string().trim().min(10).max(2000),
-});
+import { contactFormSchema, sendContactMessage } from "@/lib/contact";
 
 export function Contact() {
   const [loading, setLoading] = useState(false);
-  const send = useServerFn(sendContactMessage);
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form));
-    const result = schema.safeParse(data);
+    if (data._honey) return;
+
+    const result = contactFormSchema.safeParse(data);
     if (!result.success) {
       toast.error(result.error.issues[0].message);
       return;
     }
     setLoading(true);
     try {
-      await send({ data: result.data });
+      await sendContactMessage(result.data);
       toast.success("Message sent! I'll get back to you within 24 hours.");
       form.reset();
     } catch (err) {
@@ -93,6 +84,14 @@ export function Contact() {
             viewport={{ once: true }}
             className="lg:col-span-3 glass-strong rounded-3xl p-8 shadow-card space-y-4"
           >
+            <input
+              type="text"
+              name="_honey"
+              tabIndex={-1}
+              autoComplete="off"
+              className="hidden"
+              aria-hidden="true"
+            />
             <div className="grid sm:grid-cols-2 gap-4">
               <Field name="name" label="Name" placeholder="Your name" required />
               <Field name="email" label="Email" type="email" placeholder="you@company.com" required />
