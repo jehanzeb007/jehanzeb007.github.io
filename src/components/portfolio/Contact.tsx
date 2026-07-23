@@ -69,10 +69,10 @@ export function Contact() {
               <a href="tel:+923317634123" className="flex items-center gap-3 glass rounded-xl px-4 py-3 hover:bg-white/10 transition">
                 <Phone className="h-4 w-4 text-cyan" /><span className="text-sm">+92 331 7634123 (Pakistan)</span>
               </a>
-              <a href="https://www.upwork.com/freelancers/~01jehanzeb" target="_blank" rel="noreferrer" className="flex items-center gap-3 glass rounded-xl px-4 py-3 hover:bg-white/10 transition">
+              <a href="https://www.upwork.com/freelancers/~01b3c39443e0b4a6fe" target="_blank" rel="noreferrer" className="flex items-center gap-3 glass rounded-xl px-4 py-3 hover:bg-white/10 transition">
                 <Briefcase className="h-4 w-4 text-cyan" /><span className="text-sm">Upwork · Top Rated Plus</span>
               </a>
-              <a href="https://www.linkedin.com/in/jehanzeb-sarfraz" target="_blank" rel="noreferrer" className="flex items-center gap-3 glass rounded-xl px-4 py-3 hover:bg-white/10 transition">
+              <a href="https://www.linkedin.com/in/jehanzeb-ali/" target="_blank" rel="noreferrer" className="flex items-center gap-3 glass rounded-xl px-4 py-3 hover:bg-white/10 transition">
                 <Linkedin className="h-4 w-4 text-cyan" /><span className="text-sm">LinkedIn</span>
               </a>
               <div className="flex items-start gap-3 glass rounded-xl px-4 py-3">

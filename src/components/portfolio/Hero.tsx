@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ArrowRight, Download, Contact, FolderGit2, Sparkles, Brain, Layers, Star } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
+
 const badges = [
   { icon: Star, label: "13+ Years Experience" },
   { icon: FolderGit2, label: "70+ Projects Delivered" },
@@ -82,11 +83,11 @@ export function Hero() {
             <a href="#projects" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               View Projects
             </a>
-            <a href="#" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+            <a href="/resume.pdf" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               <Download className="h-4 w-4" /> Resume
             </a>
             <a href="/jehanzebarfraz.vcf" download className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
-              <Contact className="h-4 w-4" /> Contact
+              <Contact className="h-4 w-4" /> Vcard
             </a>
           </motion.div>
 
