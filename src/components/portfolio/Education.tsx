@@ -4,7 +4,7 @@ import { GraduationCap, School, BookOpen } from "lucide-react";
 const education = [
   {
     icon: GraduationCap,
-    degree: "Bachelor of Computer Science",
+    degree: "Bachelor of Science in Computer Science (Hons)",
     school: "University of Sargodha",
     period: "2008 – 2012",
     location: "Sargodha, Pakistan",
