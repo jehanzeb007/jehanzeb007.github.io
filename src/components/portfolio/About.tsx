@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import portraitAsset from "@/assets/portrait.png.asset.json";
 import { CheckCircle2 } from "lucide-react";
+import portraitImg from "@/assets/portrait.png";
 
 const points = [
   "CEO & Technical Lead of Dev & Design since 2023",
@@ -27,7 +27,7 @@ export function About() {
             <div className="absolute -inset-4 bg-gradient-primary opacity-30 blur-3xl rounded-full" />
             <div className="relative glass-strong rounded-3xl p-2 shadow-card">
               <img
-                src={portraitAsset.url}
+                src={portraitImg}
                 alt="Jehanzeb Sarfraz — CEO & Technical Lead of Dev & Design"
                 width={1024}
                 height={1024}
