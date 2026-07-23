@@ -7,6 +7,7 @@ import { AIExpertise } from "@/components/portfolio/AIExpertise";
 import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
 import { Experience } from "@/components/portfolio/Experience";
+import { Education } from "@/components/portfolio/Education";
 import { Services } from "@/components/portfolio/Services";
 import { Stats } from "@/components/portfolio/Stats";
 import { Testimonials } from "@/components/portfolio/Testimonials";
@@ -126,6 +127,7 @@ function Index() {
         <Skills />
         <Projects />
         <Experience />
+        <Education />
         <Services />
         <Stats />
         <Testimonials />
