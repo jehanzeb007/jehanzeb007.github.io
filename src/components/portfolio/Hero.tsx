@@ -86,7 +86,7 @@ export function Hero() {
               <Download className="h-4 w-4" /> Resume
             </a>
             <a href="/jehanzebarfraz.vcf" download className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
-              <Contact className="h-4 w-4" /> Vcard
+              <Contact className="h-4 w-4" /> Contact
             </a>
           </motion.div>
 
