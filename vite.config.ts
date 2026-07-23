@@ -7,9 +7,19 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  // User site at https://jehanzeb007.github.io/ (repo: jehanzeb007.github.io)
+  vite: {
+    base: "/",
+  },
+  // GitHub Pages is static — skip Nitro/Cloudflare worker output.
+  nitro: false,
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
     server: { entry: "server" },
+    prerender: {
+      enabled: true,
+      crawlLinks: true,
+      autoStaticPathsDiscovery: true,
+    },
   },
 });

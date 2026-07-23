@@ -19,8 +19,37 @@ import process from "node:process";
 export function getServerConfig() {
   return {
     nodeEnv: process.env.NODE_ENV,
-    // Add server-only values here, e.g.:
-    //   databaseUrl: process.env.DATABASE_URL,
-    //   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
+  };
+}
+
+export type SmtpConfig = {
+  host: string;
+  port: number;
+  secure: boolean;
+  user: string;
+  pass: string;
+  from: string;
+  to: string;
+};
+
+export function getSmtpConfig(): SmtpConfig | null {
+  const host = process.env.SMTP_HOST?.trim();
+  const user = process.env.SMTP_USER?.trim();
+  const pass = process.env.SMTP_PASS?.trim();
+
+  if (!host || !user || !pass) return null;
+
+  const port = Number(process.env.SMTP_PORT ?? "587");
+  const secure =
+    process.env.SMTP_SECURE === "true" || process.env.SMTP_SECURE === "1";
+
+  return {
+    host,
+    port: Number.isFinite(port) ? port : 587,
+    secure,
+    user,
+    pass,
+    from: process.env.SMTP_FROM?.trim() || user,
+    to: process.env.CONTACT_TO?.trim() || "jehanzebsherali@gmail.com",
   };
 }
