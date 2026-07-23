@@ -13,11 +13,11 @@ import { Testimonials } from "@/components/portfolio/Testimonials";
 import { Blog } from "@/components/portfolio/Blog";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
-import portrait from "@/assets/jehanzeb.png";
+import portraitAsset from "@/assets/portrait.png.asset.json";
 
-const title = "Jehanzeb Sarfraz — Senior Full Stack Developer & AI Solutions Architect";
+const title = "Jehanzeb Sarfraz — CEO & Technical Lead of Dev & Design | Senior Full Stack Developer & AI Solutions Architect";
 const description =
-  "Hire Jehanzeb Sarfraz — Top Rated Plus Senior Full Stack Developer & AI Solutions Architect with 13+ years building 150+ SaaS, AI, FinTech and enterprise platforms in Laravel, Node.js, React and Vue.";
+  "Hire Jehanzeb Sarfraz — CEO & Technical Lead of Dev & Design, and Top Rated Plus Senior Full Stack Developer & AI Solutions Architect with 13+ years building 150+ SaaS, AI, FinTech and enterprise platforms in Laravel, Node.js, React and Vue.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,12 +35,12 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
-      { property: "og:image", content: portrait },
+      { property: "og:image", content: portraitAsset.url },
       { property: "og:site_name", content: "Jehanzeb Sarfraz" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
-      { name: "twitter:image", content: portrait },
+      { name: "twitter:image", content: portraitAsset.url },
     ],
     links: [
       { rel: "canonical", href: "/" },
@@ -59,17 +59,28 @@ export const Route = createFileRoute("/")({
           "@type": "Person",
           name: "Jehanzeb Sarfraz",
           alternateName: "Jehanzeb Ali",
-          jobTitle: "Senior Full Stack Developer & AI Solutions Architect",
+          jobTitle: "CEO & Technical Lead of Dev & Design | Senior Full Stack Developer & AI Solutions Architect",
           description,
           email: "mailto:jehanzebsherali@gmail.com",
           telephone: "+60-11-5337-6898",
-          image: portrait,
+          image: portraitAsset.url,
           url: "/",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Sri Puramas, Jln Kuching",
+            streetAddress: "6 Capsquare, Jln Munshi Abdullah",
             addressLocality: "Kuala Lumpur",
             addressCountry: "MY",
+          },
+          worksFor: {
+            "@type": "Organization",
+            name: "Dev & Design",
+            url: "https://devandesign.com",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "6 Capsquare, Jln Munshi Abdullah",
+              addressLocality: "Kuala Lumpur",
+              addressCountry: "MY",
+            },
           },
           alumniOf: {
             "@type": "CollegeOrUniversity",

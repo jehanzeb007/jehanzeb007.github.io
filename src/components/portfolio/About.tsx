@@ -1,10 +1,9 @@
 import { motion } from "motion/react";
-import portrait from "@/assets/jehanzeb.png";
-import resume from "@/assets/resume.pdf";
-
+import portraitAsset from "@/assets/portrait.png.asset.json";
 import { CheckCircle2 } from "lucide-react";
 
 const points = [
+  "CEO & Technical Lead of Dev & Design since 2023",
   "13+ years building production software for global clients",
   "Expert in PHP, Laravel, CodeIgniter, Node.js, React & Vue",
   "Architected multi-tenant SaaS platforms from zero to scale",
@@ -28,8 +27,8 @@ export function About() {
             <div className="absolute -inset-4 bg-gradient-primary opacity-30 blur-3xl rounded-full" />
             <div className="relative glass-strong rounded-3xl p-2 shadow-card">
               <img
-                src={portrait}
-                alt="Jehanzeb Ali"
+                src={portraitAsset.url}
+                alt="Jehanzeb Sarfraz — CEO & Technical Lead of Dev & Design"
                 width={1024}
                 height={1024}
                 loading="lazy"
@@ -53,8 +52,17 @@ export function About() {
               Engineering software that <span className="text-gradient">scales globally</span>
             </h2>
             <p className="mt-5 text-muted-foreground leading-relaxed">
-              I'm Jehanzeb Ali — a Senior Full Stack Developer and AI Solutions
-              Architect with over 13 years of hands-on experience designing,
+              I'm Jehanzeb Ali — CEO & Technical Lead of{" "}
+              <a
+                href="https://devandesign.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-foreground font-semibold hover:text-cyan hover:underline transition-colors"
+              >
+                Dev & Design
+              </a>
+              , a company I founded in 2023, and a Senior Full Stack Developer and AI
+              Solutions Architect with over 13 years of hands-on experience designing,
               building, and scaling production systems. From SaaS platforms
               handling millions of transactions to AI agents automating entire
               business workflows, I help founders and enterprises turn complex

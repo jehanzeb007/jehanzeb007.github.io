@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X, Sparkles, Building2 } from "lucide-react";
 
 const links = [
   { href: "#about", label: "About" },
@@ -34,11 +34,16 @@ export function Nav() {
             scrolled ? "glass-strong shadow-card" : ""
           }`}
         >
-          <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
+          <a href="#home" className="flex items-center gap-2">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary shadow-glow">
               <Sparkles className="h-4 w-4 text-primary-foreground" />
             </span>
-            <span className="text-gradient">Jehanzeb</span>
+            <div className="flex flex-col">
+              <span className="font-display font-bold text-lg leading-tight text-gradient">Jehanzeb</span>
+              <span className="hidden sm:flex items-center gap-1 text-[10px] text-muted-foreground leading-tight">
+                <Building2 className="h-3 w-3" /> CEO & Technical Lead, Dev & Design
+              </span>
+            </div>
           </a>
 
           <ul className="hidden md:flex items-center gap-1">

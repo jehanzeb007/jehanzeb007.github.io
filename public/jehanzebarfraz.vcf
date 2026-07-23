@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jehanzeb Sarfraz
+N:Sarfraz;Jehanzeb;;;
+ORG:Dev & Design
+TITLE:CEO & Technical Lead
+EMAIL;TYPE=WORK:info@devandesign.com
+EMAIL;TYPE=HOME:jehanzebsherali@gmail.com
+TEL;TYPE=CELL:+60 11 5337 6898
+TEL;TYPE=CELL:+92 331 7634123
+ADR;TYPE=WORK:;;6 Capsquare\, Jln Munshi Abdullah;Kuala Lumpur;;;
+URL:https://jehanzeb007.github.io
+URL:https://www.upwork.com/freelancers/~01jehanzeb
+URL:https://www.linkedin.com/in/jehanzeb-sarfraz
+NOTE:Senior Full Stack Developer & AI Solutions Architect with 13+ years of experience building SaaS, AI and enterprise platforms.
+END:VCARD

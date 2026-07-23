@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const timeline = [
-  { year: "2024–Now", title: "AI Solutions Architect", org: "Independent · Top Rated Plus", desc: "Designing AI agents, RAG systems and automation pipelines for global SaaS and enterprise clients." },
+  { year: "2023–Now", title: "CEO & Technical Lead", org: "Dev & Design", desc: "Founded and scaled Dev & Design, delivering AI solutions, SaaS platforms and enterprise engineering for global clients while operating as a Top Rated Plus freelancer." },
   { year: "2021–2024", title: "Senior Full Stack Engineer & Tech Lead", org: "Multiple SaaS Companies", desc: "Led teams building multi-tenant SaaS, payments and analytics platforms scaling to millions of users." },
   { year: "2017–2021", title: "Full Stack Developer", org: "Agency & Product Work", desc: "Shipped Laravel, Node.js, Vue and React applications, marketplaces and integrations across industries." },
   { year: "2014–2017", title: "Backend Developer", org: "Web Studios", desc: "Built PHP / CodeIgniter / Laravel applications, payment integrations and REST APIs for international clients." },

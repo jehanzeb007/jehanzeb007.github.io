@@ -11,7 +11,11 @@ export function Footer() {
           <span className="text-gradient">Jehanzeb Ali</span>
         </div>
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Jehanzeb Ali — Senior Full Stack Developer & AI Solutions Architect.
+          © {new Date().getFullYear()} Jehanzeb Ali — CEO & Technical Lead of{" "}
+          <a href="https://devandesign.com" target="_blank" rel="noreferrer" className="hover:text-cyan hover:underline transition-colors">
+            Dev & Design
+          </a>
+          , Senior Full Stack Developer & AI Solutions Architect.
         </p>
       </div>
     </footer>

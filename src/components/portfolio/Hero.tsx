@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowRight, Download, Calendar, FolderGit2, Sparkles, Brain, Layers, Star } from "lucide-react";
+import { ArrowRight, Download, Contact, FolderGit2, Sparkles, Brain, Layers, Star } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const badges = [
@@ -57,7 +57,16 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 mx-auto max-w-2xl text-base sm:text-lg text-muted-foreground"
           >
-            I build scalable SaaS platforms, AI-powered applications, payment systems,
+            CEO & Technical Lead of{" "}
+            <a
+              href="https://devandesign.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-cyan hover:underline font-medium"
+            >
+              Dev & Design
+            </a>
+            . I build scalable SaaS platforms, AI-powered applications, payment systems,
             and enterprise-grade web solutions used by businesses worldwide.
           </motion.p>
 
@@ -73,11 +82,11 @@ export function Hero() {
             <a href="#projects" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               View Projects
             </a>
-            <a href="src/assets/resume.pdf" target="_blank"  className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+            <a href="#" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               <Download className="h-4 w-4" /> Resume
             </a>
-            <a href="src/assets/jehanzebarfraz.vcf" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
-            <Download className="h-4 w-4" />  Contact
+            <a href="/jehanzebarfraz.vcf" download className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+              <Contact className="h-4 w-4" /> Contact
             </a>
           </motion.div>
 
