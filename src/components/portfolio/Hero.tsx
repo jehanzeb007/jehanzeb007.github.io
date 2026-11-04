@@ -11,6 +11,9 @@ const badges = [
 ];
 
 export function Hero() {
+  const homeBase = import.meta.env.BASE_URL || "/";
+  const vcfUrl = `${homeBase}jehanzebarfraz.vcf`;
+
   return (
     <section id="home" className="relative pt-32 pb-24 overflow-hidden">
       <div className="absolute inset-0 -z-10">
@@ -85,7 +88,7 @@ export function Hero() {
             <a href="jehanzeb-resume.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               <Download className="h-4 w-4" /> Resume
             </a>
-            <a href="/jehanzebarfraz.vcf" download className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
+            <a href={vcfUrl} download className="inline-flex items-center gap-2 glass rounded-xl px-6 py-3.5 text-sm font-semibold hover:bg-white/10 transition">
               <Contact className="h-4 w-4" /> Contact
             </a>
           </motion.div>
