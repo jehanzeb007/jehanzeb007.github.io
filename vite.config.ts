@@ -7,9 +7,9 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  // User site at https://jehanzeb007.github.io/ (repo: jehanzeb007.github.io)
+  // Use a relative base so the static build works on GitHub Pages project sites and user pages.
   vite: {
-    base: "/",
+    base: "./",
   },
   // GitHub Pages is static — skip Nitro/Cloudflare worker output.
   nitro: false,

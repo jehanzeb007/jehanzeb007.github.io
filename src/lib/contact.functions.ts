@@ -10,7 +10,7 @@ const schema = z.object({
 });
 
 export const sendContactMessage = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) => schema.parse(data))
+  .validator((data: unknown) => schema.parse(data))
   .handler(async ({ data }) => {
     const nodemailer = (await import("nodemailer")).default;
 
